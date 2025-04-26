@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/800x300') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.destinations {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.booking {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.booking form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.booking input, .booking select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking button {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking button:hover {
+  background-color: #005f8f;
+}
+
+.whatsapp {
+  text-align: center;
+  padding: 20px;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
+
+footer {
+  background-color: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
